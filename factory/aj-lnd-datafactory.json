@@ -1,0 +1,9 @@
+{
+	"name": "aj-lnd-datafactory",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7edede8c-eccc-4c4f-9764-b4421594b842",
+		"tenantId": "320b496b-0e9d-4f87-834a-62788b1d918b"
+	}
+}
