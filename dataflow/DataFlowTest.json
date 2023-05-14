@@ -4,11 +4,16 @@
 		"description": "DataFlowTest",
 		"type": "MappingDataFlow",
 		"typeProperties": {
-			"sources": [],
+			"sources": [
+				{
+					"name": "strmAzureDataLake"
+				}
+			],
 			"sinks": [],
 			"transformations": [],
 			"scriptLines": [
-				""
+				"source(allowSchemaDrift: true,",
+				"     validateSchema: false) ~> strmAzureDataLake"
 			]
 		}
 	}
