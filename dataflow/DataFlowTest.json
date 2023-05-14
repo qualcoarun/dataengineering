@@ -1,0 +1,15 @@
+{
+	"name": "DataFlowTest",
+	"properties": {
+		"description": "DataFlowTest",
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				""
+			]
+		}
+	}
+}
