@@ -1,0 +1,16 @@
+{
+	"name": "AzQbcLOV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzSqlDW",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Qbc",
+			"table": "AT_LST_OF_VAL"
+		}
+	}
+}

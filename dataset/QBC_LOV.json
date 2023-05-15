@@ -1,0 +1,180 @@
+{
+	"name": "QBC_LOV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "IBM_WRAITH_QBC",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "LOV_CODE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LOV_CREATED",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "LOV_LAST_UPD",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "LOV_CREATED_BY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOV_LAST_UPD_BY",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOV_MODIFICATION_NUM",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LOV_INTERNAL",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "COMP_CODE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LOVT_CODE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LOV_CODE_PARENT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LOV_DESC",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOV_ACTIVE",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_LOW",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LOV_HIGH",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LOV_INTERNAL_DESC",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOV_COMMENTS",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ENT_CODE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LOV_IS_SUBMITTED",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_APPROVED",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_REJECTED",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_COMPLETED",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_CANCELLED",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_S_ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOV_SOURCE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOV_GROUP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOV_RETYPE_PASS",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_OUT_OF_COLLECTION",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_APPROVAL_LEVEL",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_SETTLEMENT_ACTIVATE",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_SETTLEMENT_CANCEL",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_PRIORITY",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LOV_IS_ANALYTICS_END",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_ACTIVATED",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_LONG_DESC",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOV_IS_LOCKED",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_IS_LOCK_PROPERTIES",
+				"type": "bit"
+			},
+			{
+				"name": "LOV_AGGREGATED_PRIORITY",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "AT_LST_OF_VAL"
+		}
+	}
+}
