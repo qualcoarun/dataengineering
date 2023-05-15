@@ -4,15 +4,7 @@
 		"description": "DataFlowTest",
 		"type": "MappingDataFlow",
 		"typeProperties": {
-			"sources": [
-				{
-					"dataset": {
-						"referenceName": "QBC_LOV",
-						"type": "DatasetReference"
-					},
-					"name": "QbcLOV"
-				}
-			],
+			"sources": [],
 			"sinks": [
 				{
 					"dataset": {
@@ -24,50 +16,7 @@
 			],
 			"transformations": [],
 			"scriptLines": [
-				"source(output(",
-				"          LOV_CODE as integer,",
-				"          LOV_CREATED as timestamp,",
-				"          LOV_LAST_UPD as timestamp,",
-				"          LOV_CREATED_BY as string,",
-				"          LOV_LAST_UPD_BY as string,",
-				"          LOV_MODIFICATION_NUM as integer,",
-				"          LOV_INTERNAL as integer,",
-				"          COMP_CODE as integer,",
-				"          LOVT_CODE as integer,",
-				"          LOV_CODE_PARENT as integer,",
-				"          LOV_DESC as string,",
-				"          LOV_ACTIVE as boolean,",
-				"          LOV_LOW as integer,",
-				"          LOV_HIGH as integer,",
-				"          LOV_INTERNAL_DESC as string,",
-				"          LOV_COMMENTS as string,",
-				"          ENT_CODE as integer,",
-				"          LOV_IS_SUBMITTED as boolean,",
-				"          LOV_IS_APPROVED as boolean,",
-				"          LOV_IS_REJECTED as boolean,",
-				"          LOV_IS_COMPLETED as boolean,",
-				"          LOV_IS_CANCELLED as boolean,",
-				"          LOV_S_ID as string,",
-				"          LOV_SOURCE as string,",
-				"          LOV_GROUP as string,",
-				"          LOV_RETYPE_PASS as boolean,",
-				"          LOV_IS_OUT_OF_COLLECTION as boolean,",
-				"          LOV_IS_APPROVAL_LEVEL as boolean,",
-				"          LOV_IS_SETTLEMENT_ACTIVATE as boolean,",
-				"          LOV_IS_SETTLEMENT_CANCEL as boolean,",
-				"          LOV_PRIORITY as integer,",
-				"          LOV_IS_ANALYTICS_END as boolean,",
-				"          LOV_IS_ACTIVATED as boolean,",
-				"          LOV_LONG_DESC as string,",
-				"          LOV_IS_LOCKED as boolean,",
-				"          LOV_IS_LOCK_PROPERTIES as boolean,",
-				"          LOV_AGGREGATED_PRIORITY as integer",
-				"     ),",
-				"     allowSchemaDrift: true,",
-				"     validateSchema: false,",
-				"     isolationLevel: 'READ_UNCOMMITTED',",
-				"     format: 'table') ~> QbcLOV",
-				"QbcLOV sink(allowSchemaDrift: true,",
+				" sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     deletable:false,",
 				"     insertable:true,",
