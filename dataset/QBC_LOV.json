@@ -1,10 +1,6 @@
 {
 	"name": "QBC_LOV",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "IBM_WRAITH_QBC",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": [
