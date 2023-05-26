@@ -1,0 +1,7 @@
+{
+	"name": "CopyIBMStagingData",
+	"properties": {
+		"description": "This would copy the staging data from VELAR ECAnalytics database to Azure SQL Database",
+		"annotations": []
+	}
+}
