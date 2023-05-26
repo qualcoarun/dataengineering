@@ -1,0 +1,7 @@
+{
+	"name": "Qualco-IBM",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self-hosted IR which would be published in Qualco IBM data center. To start with we will use Wraith server"
+	}
+}
