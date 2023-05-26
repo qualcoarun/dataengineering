@@ -1,0 +1,9 @@
+{
+	"name": "aj-lnd-df",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "13b00656-8c03-45a3-9d16-3bd7af19d8d0",
+		"tenantId": "320b496b-0e9d-4f87-834a-62788b1d918b"
+	}
+}
